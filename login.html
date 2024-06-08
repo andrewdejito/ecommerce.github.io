@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisanal Avenue: Celebrating Handcrafted Goods Online</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   
+    <header>
+        <a href="#" class="logo"> <span> <img src="images/logo.png" width="200px"> </span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#" onclick="login()">Log in</a></li>
+            <li><a href="#" onclick="register()"> Sign Up</a></li>
+        </ul>
+    </header>
+    <section class="login"  style="background-image: url(images/login-bg.png);">
+        <div class="form-box">
+        
+            <div class="login-container" id="login">
+                <div class="top">
+                    <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
+                    <header>Login</header>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Username or Email">
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Password">
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="submit" value="Sign In">
+                </div>
+                <div class="two-col">
+                    <div class="one">
+                        <input type="checkbox" id="login-check">
+                        <label for="login-check"> Remember Me</label>
+                    </div>
+                    <div class="two">
+                        <label><a href="#">Forgot password?</a></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="register-container" id="register">
+                <div class="top">
+                    <span>Already have an account? <a href="#" onclick="login()">Login</a></span>
+                    <header>Sign Up</header>
+                </div>
+                <div class="two-forms">
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Firstname">
+                        <i class="bx bx-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Lastname">
+                        <i class="bx bx-user"></i>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Email">
+                    <i class="bx bx-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Password">
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="submit" value="Register">
+                </div>
+                <div class="two-col">
+                    <div class="one">
+                        <input type="checkbox" id="register-check">
+                        <label for="register-check"> Remember Me</label>
+                    </div>
+                    <div class="two">
+                        <label><a href="#">Terms & Conditions</a></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <h2>Artisanal<span>Avenue</span></h2>
+            <p>Discover the artistry and passion behind every handcrafted piece at Artisanal Avenue!</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Product</h3>
+            <li><a href="#">Bags</a></li>
+            <li><a href="#">Barong</a></li>
+            <li><a href="#">Masks</a></li>
+            <li><a href="#">Home Decors</a></li>
+        </div>
+        <div class="footer-box contact-info">
+            <h3>Contact</h3>
+            <span>Laguna, Philippines</span>
+            <span>+1 2345 6789</span>
+            <span>artisanalavenue@biz.com</span>
+            
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; Artisanal Avenue All Right Reserved.</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
